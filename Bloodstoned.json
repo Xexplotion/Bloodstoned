@@ -1,0 +1,20 @@
+{
+  "id": "Bloodstoned",
+  "name": "Bloodstoned",
+  "display_name": "Bloodstoned",
+  "author": ["X_explotion"],
+  "description": "Tracks your bloodstone's ragebait!",
+  "prefix": "loodstoned",
+  "main_file": "core.lua",
+  "priority": 0,
+  "badge_colour": "AC3232",
+  "badge_text_colour": "FFFFFF",
+  "version": "0.0.1",
+  "dependencies": [
+    "Steamodded (>=1.0.0~BETA-0711a)",
+    "Lovely (>=0.8)",
+    "Balatro (>=1.0.1o)"
+  ],
+  "conflicts": [
+  ]
+}
