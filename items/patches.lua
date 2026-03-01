@@ -31,9 +31,8 @@ function Card:calculate_joker(context)
                     func = function()
                         local checks = stats.total_checks or 0
                         local hits = stats.total_hits or 0
-                        local percent = checks > 0 and (hits / checks) or -1
 
-                        self:createProcUI(self, math.floor(percent * 100))
+                        self:createProcUI(self, hits, checks)
 
                         stats.total_hits = 0
                         stats.total_checks = 0
